@@ -1,0 +1,57 @@
+.App {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+body {
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #44374b;
+}
+
+
+.add {
+  font: inherit;
+  background-color: #ddb0eb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 2px;
+  width: 50%;
+}
+
+.add:hover {
+  background-color: #daa4eae6;
+  color: #fff;
+}
+
+.output{
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 1px solid #ddb0eb;
+  color: #fff;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ddd;
+  text-transform: capitalize;
+}
